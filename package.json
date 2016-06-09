@@ -1,0 +1,27 @@
+{
+  "name": "sns-listen",
+  "version": "0.0.0",
+  "description": "Handle incoming AWS SNS messages",
+  "main": "index.js",
+  "keywords": [
+    "aws",
+    "sns"
+  ],
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "sns-validator": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tellnes/sns-listen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tellnes/sns-listen/issues"
+  },
+  "homepage": "https://github.com/tellnes/sns-listen#readme"
+}
