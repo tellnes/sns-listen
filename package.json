@@ -1,6 +1,6 @@
 {
   "name": "sns-listen",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Handle incoming AWS SNS messages",
   "main": "index.js",
   "keywords": [
@@ -14,8 +14,7 @@
     "sns-validator": "^0.2.1"
   },
   "devDependencies": {},
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tellnes/sns-listen.git"
