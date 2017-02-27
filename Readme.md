@@ -43,10 +43,13 @@ const express = require('express')
 const snsListen = require('sns-listen')
 
 const app = express()
+const sns = snsListen()
 
-app.post('/sns', snsListen((message) => {
+sns.on('notification', (message) => {
   console.log('got notification', message)
-}))
+})
+
+app.post('/sns', sns.middleware())
 
 app.listen(9000)
 ```
