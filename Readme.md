@@ -46,7 +46,7 @@ const app = express()
 
 app.post('/sns', snsListen((message) => {
   console.log('got notification', message)
-}))
+}).middleware());
 
 app.listen(9000)
 ```
